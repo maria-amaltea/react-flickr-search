@@ -3,7 +3,7 @@ const imageSearch  = (query, page) => {
     
     const options = [
       "method=flickr.photos.search",
-      "api_key=1fd00dc5130478b5badd34f81e182bb0",
+      "api_key=d94a61c8c366c06a9dd8ac877f382f68",
       "nojsoncallback=1",
       "format=json",
       "extras=url_m",

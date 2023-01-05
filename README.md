@@ -1,6 +1,6 @@
 #  React Js Image Search Engine using Flickr API and Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an example of consuming data from a REST API using React and Redux. 
 
 ## Available Scripts
 
@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Will install the app dependencies. Only needed the first time. \
+Will install the app dependencies. Only needed the first time.\
 
 then:\
 
