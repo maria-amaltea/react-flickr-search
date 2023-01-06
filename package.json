@@ -39,5 +39,6 @@
   },
   "devDependencies": {
     "@redux-devtools/core": "^3.13.1"
-  }
+  },
+  "homepage": "https://maria-amaltea.github.io/react-flickr-search/build/",
 }
