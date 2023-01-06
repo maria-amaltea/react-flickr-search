@@ -43,12 +43,12 @@ class App extends Component {
   updatePaginationIncrease(paginationCounter) {
     
     const store = this.props.store
-    store.dispatch({ type: 'PAGINATION_INCREASE_SET', payload: paginationCounter + 10 })
+    store.dispatch({ type: 'PAGINATION_INCREASE_SET', payload: paginationCounter})
   }
 
   updatePaginationDecrease(paginationCounter) {
     const store = this.props.store
-    store.dispatch({ type: 'PAGINATION_INCREASE_SET', payload: paginationCounter - 10 })
+    store.dispatch({ type: 'PAGINATION_INCREASE_SET', payload: paginationCounter})
   }
 
 

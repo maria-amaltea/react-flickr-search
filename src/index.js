@@ -47,14 +47,14 @@ const reducer = (state = initialState, action) => {
 //this happened when the user pressed next in the pagination set of numbers
   if (action.type === "PAGINATION_INCREASE_SET") {
     return Object.assign({}, state, {
-      pageCounter: action.payload,
+      pageCounter: action.payload + 10,
     });
   }
 
 //this happened when the user pressed previous in the pagination set of numbers  
   if (action.type === "PAGINATION_DECREASE_SET") {
     return Object.assign({}, state, {
-      pageCounter: action.payload,
+      pageCounter: action.payload  - 10 ,
     });
   }
 
