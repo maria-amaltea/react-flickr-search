@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -12,7 +11,7 @@
 }
 .logo-container {
   display: flex;
-/*   border:1px solid red; */
+  /*   border:1px solid red; */
   height: 100%;
   align-items: center;
 }
@@ -26,14 +25,12 @@ ul.results {
 }
 
 ul.results li {
- width: 24.5%;
- min-height: 240px;
- max-height: 300px;
+  width: 24.5%;
+  min-height: 240px;
+  max-height: 300px;
   margin-right: 0.5%;
   margin-bottom: 0.5%;
-  
 }
-
 
 li img {
   width: 100%;
@@ -54,9 +51,8 @@ button[type="submit"] {
   margin-top: 2rem;
 }
 
-
 .pagination-container {
-  padding:3rem 0;
+  padding: 3rem 0;
 }
 
 ul.pagination {
@@ -66,7 +62,7 @@ ul.pagination {
   list-style-type: none;
   flex-wrap: wrap;
   height: 10px;
-  margin:1rem auto;
+  margin: 1rem auto;
 }
 
 ul.pagination li {
@@ -79,57 +75,57 @@ ul.pagination li {
 ul.pagination li.selected {
   border: 1px solid silver;
   color: white;
-  background: #BD0034;
+  background: #bd0034;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-
-
 svg {
-    display: block;
-    font: 10.5em 'Montserrat';
-    width: 960px;
-    height: 300px;
-    margin: 0 auto;
+  display: block;
+  font: 10.5em "Montserrat";
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
 }
 
 .text-copy {
-    fill: none;
-    stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
-    animation: stroke-offset 6.5s infinite linear;
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 6.5s infinite linear;
 }
 
-.text-copy:nth-child(1){
-	stroke: #4D163D;
-	animation-delay: -1;
+.text-copy:nth-child(1) {
+  stroke: #4d163d;
+  animation-delay: -1;
 }
 
-.text-copy:nth-child(2){
-	stroke: #840037;
-	animation-delay: -2s;
+.text-copy:nth-child(2) {
+  stroke: #840037;
+  animation-delay: -2s;
 }
 
-.text-copy:nth-child(3){
-	stroke: #BD0034;
-	animation-delay: -3s;
+.text-copy:nth-child(3) {
+  stroke: #bd0034;
+  animation-delay: -3s;
 }
 
-.text-copy:nth-child(4){
-	stroke: #BD0034;
-	animation-delay: -4s;
+.text-copy:nth-child(4) {
+  stroke: #bd0034;
+  animation-delay: -4s;
 }
 
-.text-copy:nth-child(5){
-	stroke: #FDB731;
-	animation-delay: -5s;
+.text-copy:nth-child(5) {
+  stroke: #fdb731;
+  animation-delay: -5s;
 }
 
-@keyframes stroke-offset{
-	100% {stroke-dashoffset: -35%;}
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -159,5 +155,27 @@ svg {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 20px auto 20px auto;
+    width: 100%;
+  }
+  form {
+    text-align: center;
+  }
+  ul.results {
+    flex-direction: column;
+  }
+
+  ul.results li {
+    width: 100%;
+    min-height: auto;
+    max-height: 260px;
+    height: 260px;
+    margin-right: 0.5%;
+    margin-bottom: 0.5rem;
   }
 }
