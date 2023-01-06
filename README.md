@@ -2,6 +2,9 @@
 
 This is an example of consuming data from a REST API using React and Redux. 
 
+## Demo
+[demon on github pages](https://maria-amaltea.github.io/react-flickr-search/build/)
+
 ## Available Scripts
 
 In the project directory, you can run:
